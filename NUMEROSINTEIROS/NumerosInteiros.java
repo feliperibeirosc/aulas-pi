@@ -9,8 +9,8 @@ public class NumerosInteiros{
 		b = scan.nextInt();
 		c = scan.nextInt();
 		
-		System.out.println(a);
-		System.out.println(b);
+		System.out.print(a);
+		System.out.print(b);
 		System.out.println(c);
 	}
 }

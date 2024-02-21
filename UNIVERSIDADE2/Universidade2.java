@@ -6,12 +6,12 @@ public static void main(String[] args)
 int tempo;
 String universidade;
 Scanner scan = new Scanner(System.in);
-System.out.print(“Onde voce estuda: ”);
+System.out.print("Onde voce estuda: ");
 universidade = scan.next();
-System.out.print(“Quanto tempo: ”);
+System.out.print("Quanto tempo: ");
 tempo = scan.nextInt();
-System.out.println(“Voce estuda na ” + universidade + “ ha ”
-+ tempo + “ anos.”);
+System.out.println("Voce estuda na " + universidade + " ha "
++ tempo + " anos.");
 
 }
 }
