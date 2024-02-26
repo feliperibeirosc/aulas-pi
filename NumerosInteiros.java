@@ -1,0 +1,17 @@
+// Ex 6
+
+import java.util.Scanner;
+
+public class NumerosInteiros {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        long a, b, c;
+        a = scan.nextLong();
+        b = scan.nextLong();
+        c = scan.nextLong();
+
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+    }
+}
